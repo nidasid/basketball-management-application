@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e304b64a-cdd8-4221-9d0a-52b19908d715" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/basketball-management-application.iml" afterPath="$PROJECT_DIR$/.idea/basketball-management-application.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/phase7/FCYBA.java" afterPath="$PROJECT_DIR$/src/main/java/phase7/FCYBA.java" />
     </list>
@@ -31,8 +28,8 @@
       <file leaf-file-name="FCYBA.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/phase7/FCYBA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="428" column="29" lean-forward="false" selection-start-line="428" selection-start-column="29" selection-end-line="428" selection-end-column="29" />
+            <state relative-caret-position="272">
+              <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#FCYBA#0" expanded="false" />
                 <element signature="method#main#0;class#FCYBA#0" expanded="false" />
@@ -40,6 +37,7 @@
                 <element signature="method#saveUserData#0;class#FCYBA#0" expanded="false" />
                 <element signature="method#login#0;class#FCYBA#0" expanded="false" />
                 <element signature="method#reports#0;class#FCYBA#0" expanded="false" />
+                <element signature="method#coachMenu#0;class#FCYBA#0" expanded="false" />
                 <element signature="method#profile#0;class#FCYBA#0" expanded="false" />
                 <element signature="method#coachPlayerProfile#0;class#FCYBA#0" expanded="false" />
                 <element signature="method#teamInfo#0;class#FCYBA#0" expanded="false" />
@@ -79,9 +77,9 @@
         <option value="$PROJECT_DIR$/src/main/java/phase7/Team.java" />
         <option value="$PROJECT_DIR$/src/main/java/phase7/team_data.txt" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/phase7/CoachTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/phase7/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/phase7/TeamTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/phase7/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/phase7/CoachTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/phase7/FCYBA.java" />
       </list>
     </option>
@@ -286,6 +284,34 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -505,6 +531,14 @@
       <option name="presentableId" value="Default" />
       <updated>1494290105933</updated>
     </task>
+    <task id="LOCAL-00001" summary="changed file save destination.">
+      <created>1494298495747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1494298495747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -514,7 +548,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.297593" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2974239" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -555,6 +589,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed file save destination." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed file save destination." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -584,6 +622,7 @@
             <element signature="method#saveUserData#0;class#FCYBA#0" expanded="false" />
             <element signature="method#login#0;class#FCYBA#0" expanded="false" />
             <element signature="method#reports#0;class#FCYBA#0" expanded="false" />
+            <element signature="method#coachMenu#0;class#FCYBA#0" expanded="false" />
             <element signature="method#profile#0;class#FCYBA#0" expanded="false" />
             <element signature="method#coachPlayerProfile#0;class#FCYBA#0" expanded="false" />
             <element signature="method#teamInfo#0;class#FCYBA#0" expanded="false" />
@@ -685,16 +724,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/groupId/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/phase7/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -729,24 +758,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/phase7/TeamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="68" column="5" lean-forward="false" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        <state relative-caret-position="303">
+          <caret line="60" column="4" lean-forward="false" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/phase7/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="96" column="4" lean-forward="false" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/phase7/CoachTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="362">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/phase7/FCYBA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="428" column="29" lean-forward="false" selection-start-line="428" selection-start-column="29" selection-end-line="428" selection-end-column="29" />
+        <state relative-caret-position="272">
+          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#FCYBA#0" expanded="false" />
             <element signature="method#main#0;class#FCYBA#0" expanded="false" />
@@ -754,6 +793,7 @@
             <element signature="method#saveUserData#0;class#FCYBA#0" expanded="false" />
             <element signature="method#login#0;class#FCYBA#0" expanded="false" />
             <element signature="method#reports#0;class#FCYBA#0" expanded="false" />
+            <element signature="method#coachMenu#0;class#FCYBA#0" expanded="false" />
             <element signature="method#profile#0;class#FCYBA#0" expanded="false" />
             <element signature="method#coachPlayerProfile#0;class#FCYBA#0" expanded="false" />
             <element signature="method#teamInfo#0;class#FCYBA#0" expanded="false" />

@@ -14,8 +14,7 @@ import java.util.Scanner;
  * Spring 2017
  */
 public class FCYBA {
-    public static void main (String[] args)
-    {
+    public static void main (String[] args) {
         JOptionPane.showMessageDialog(null, "*TESTING INSTRUCTIONS*  \n\n" +
                 "If you are logging in as a coach: \n" +
                 "Coach Username: jsaunders@coaches.com \n" +
