@@ -106,9 +106,9 @@ public class FCYBA {
 
     }
 
-    private static void saveUserData(Team team, LinkedList<Player> players) {
-        String playerData = "./src//main/resources/player_data.txt";
-        String teamData = "./src/main/resources/team_data.txt";
+    private static void saveUserData(Team team) {
+        String playerData = "./src//main/resources/player_data_save.txt";
+        String teamData = "./src/main/resources/team_data_save.txt";
 
         /**
          * To write to the player_data.txt file.
@@ -426,7 +426,7 @@ public class FCYBA {
         else
         {
             JOptionPane.showMessageDialog(null, "You have been successfully logged out. \n Have a great day.");
-            saveUserData(team, players);
+            saveUserData(team);
             System.exit(0);
         }
     }
@@ -669,7 +669,7 @@ public class FCYBA {
         else
         {
             JOptionPane.showMessageDialog(null, "You have been successfully logged out. \n Have a great day.");
-            saveUserData(team, players);
+            saveUserData(team);
             System.exit(0);
         }
     }
