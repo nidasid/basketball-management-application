@@ -33,8 +33,8 @@ public class FCYBA {
         Team team = new Team();
         LinkedList<Player> players = new LinkedList<Player>();
 
-        String playerData = "../../test/java/phase7/player_data.txt";
-        String teamData = "../../test/java/phase7/team_data.txt";
+        String playerData = "./src/main/resources/player_data.txt";
+        String teamData = "./src/main/resources/team_data.txt";
         Coach coach = new Coach();
 
         try {
@@ -106,7 +106,7 @@ public class FCYBA {
     }
 
     private static void saveUserData(Team team) {
-        String playerData = "./src//main/resources/player_data_save.txt";
+        String playerData = "./src/main/resources/player_data_save.txt";
         String teamData = "./src/main/resources/team_data_save.txt";
 
         /**

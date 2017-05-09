@@ -1,0 +1,10 @@
+Yogi Ferrell,yferrell@players.com,password,4,4,11,3,11
+Deron Williams,dwilliams@players.com,password,4,7,13,3,13
+John Smith,jsmith@players.com,password,4,5,32,15,32
+James Bond,jbond@players.com,password,5,14,12,2,12
+Kobe Bryant,kbrayant@players.com,password,5,6,29,5,29
+Wesley Matthews,wmatthews@players.com,password,6,3,14,4,14
+Steve Nash,snash@players.com,password,6,9,18,4,18
+Seth Curry,scurry@players.com,password,7,3,13,3,13
+Harrison Barnes,hbarnes@players.com,password,7,2,19,5,19
+Remy MacDonald,rmacdonald@players.com,password,12,2,6,1,6
