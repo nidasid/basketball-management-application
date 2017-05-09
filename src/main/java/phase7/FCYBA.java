@@ -33,8 +33,8 @@ public class FCYBA {
         Team team = new Team();
         LinkedList<Player> players = new LinkedList<Player>();
 
-        String playerData = "/Users/nidas/Documents/newIT306Project/fcyba-application/src/main/player_data.txt";
-        String teamData = "/Users/nidas/Documents/newIT306Project/fcyba-application/src/main/team_data.txt";
+        String playerData = "../../test/java/phase7/player_data.txt";
+        String teamData = "../../test/java/phase7/team_data.txt";
         Coach coach = new Coach();
 
         try {
